@@ -33,7 +33,7 @@ div[data-testid="stMetric"] { background:#1e293b; border:1px solid #334155; padd
 </style>
 <div class="hero"><h1>🏃🏻‍➡️ Fuel Efficiency (MPG) Predictor</h1>
 <p>Upload data → train &amp; compare ML models → predict a vehicle's mileage.</p></div>
-<div class="road"><div class="car"><span>🏃🏻‍➡️👉 🍑🏃🏻‍♀️‍➡️</span></div></div>
+<div class="road"><div class="car"><span>🏃🏻‍➡️</span></div></div>
 """, unsafe_allow_html=True)
 
 
