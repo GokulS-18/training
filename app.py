@@ -31,9 +31,9 @@ div[data-testid="stMetric"] { background:#1e293b; border:1px solid #334155; padd
   border-radius:10px; padding:.6rem 1.4rem; font-weight:600; transition:transform .15s; }
 .stButton>button:hover { transform:translateY(-2px) scale(1.03); }
 </style>
-<div class="hero"><h1>🚗 Fuel Efficiency (MPG) Predictor</h1>
+<div class="hero"><h1>🏃🏻‍➡️ Fuel Efficiency (MPG) Predictor</h1>
 <p>Upload data → train &amp; compare ML models → predict a vehicle's mileage.</p></div>
-<div class="road"><div class="car"><span>⛟</span></div></div>
+<div class="road"><div class="car"><span>🏃🏻‍➡️</span></div></div>
 """, unsafe_allow_html=True)
 
 
@@ -63,7 +63,7 @@ def result_widget(mpg: float) -> str:
  <div style="position:relative;height:46px;margin-top:10px;overflow:hidden;border-radius:10px;background:#111827">
   <div id="rd" style="position:absolute;left:0;right:0;bottom:8px;height:3px;
    background:repeating-linear-gradient(90deg,#fbbf24 0 24px,transparent 24px 48px);"></div>
-  <div id="car" style="position:absolute;bottom:10px;left:0;font-size:1.8rem;">🚗</div>
+  <div id="car" style="position:absolute;bottom:10px;left:0;font-size:1.8rem;">🏃🏻‍➡️</div>
  </div>
 </div>
 <script>
